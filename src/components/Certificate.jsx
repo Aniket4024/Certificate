@@ -1,5 +1,6 @@
 import styles from "../CSS/certificate.module.css"
 import bannerElement1 from "../media/CerElement.png"
+import sign from "../media/sign.png"
 
 const Certificate =  ()=>{
 
@@ -23,7 +24,7 @@ const Certificate =  ()=>{
                 <img src={bannerElement1} alt="" />
                 <div>
                     <div>
-
+                        <img src={sign} alt="" />
                     </div>
                     <p>SIGNATURE</p>
                 </div>

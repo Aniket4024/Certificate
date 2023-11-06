@@ -73,9 +73,16 @@
 
 #certificate>div:nth-child(1)>div>div{
     width: 150px;
+    /* margin-bottom: -10px; */
+}
+#certificate>div:nth-child(1)>div>div>div{
     border-bottom: 1px solid white;
-    height: 1px;
-    margin-bottom: -10px;
+    height: 70px;
+}
+#certificate>div:nth-child(1)>div>div>div>img{
+    width: 100px;
+    /* border: 1px solid red; */
+
 }
 #certificate>div:nth-child(1)>div>div>p{
     margin-top: 10px;
